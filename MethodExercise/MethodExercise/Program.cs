@@ -27,9 +27,71 @@ namespace MethodExercise
             var favoriteBand = Console.ReadLine();
 
             Console.WriteLine($"The name of my favorite band is {favoriteBand}.");
-               
 
-               
+            Console.WriteLine(Sum(8, 7));
+
+            Console.WriteLine(Sum(6, 5));
+
+
+            Console.WriteLine(Add(40, 9));
+
+
+
+
+
+
+
+        }
+
+        public static int Sum(int first, int second)
+
+        {
+            return first + second;
+
+
+        }
+        public static int Add(int one, int two)
+        {
+            return one + two;
+
+        }
+        public static double Add(double one, double two)
+        {
+            return one + two;
+        }
+
+        public static string Add(int one, int two, bool value)
+        {
+            var answer = one + two;
+
+            if (value == true)
+            {
+                return $"{answer}dollars";
+            }
+            else
+            {
+                return $"{answer}dollar";
+
+
+
+
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
+               
+
+               
